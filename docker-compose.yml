@@ -45,8 +45,8 @@ services:
   pgadmin-compose:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "linder@gmail.com"
-      PGADMIN_DEFAULT_PASSWORD: "linder340!"
+      PGADMIN_DEFAULT_EMAIL: "romani@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "romani240!"
     ports:
       - "16543:80"
     depends_on:
