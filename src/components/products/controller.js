@@ -5,6 +5,6 @@
 export const getProducts = (req, res) => {
   res.status(200).json({
     ok: true,
-    body: "Testing CI/CD with Docker Romani II",
+    body: "Testing CI/CD with Docker Romani III",
   });
 };
