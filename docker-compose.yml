@@ -10,7 +10,7 @@ services:
       # so this ensures our database is loaded first
       - postgres
     ports:
-      - "8080:8080"
+      - "8088:8088"
     volumes:
       # Maps our current project directory `.` to
       # our working directory in the container
@@ -20,7 +20,7 @@ services:
       - /usr/src/app/node_modules
     environment:
       - DATABASE_URL="postgresql://root:root@postgres:5432/mydb?schema=public"
-      - PORT=8080
+      - PORT=8088
 
   # This is the configuration for our PostgreSQL database container
   # Note the `postgres` name is important, in out Node app when we refer

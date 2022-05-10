@@ -19,6 +19,6 @@ COPY . .
 # Generate prisma configuration
 # RUN npm run generate:prisma
 
-EXPOSE 8080
+EXPOSE 8088
 
 CMD [ "npm", "run", "start" ]
